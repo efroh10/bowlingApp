@@ -68,7 +68,6 @@ class Player    {
 
     constructor(name){
         this.name = name;
-
         this.frames = [{'score': 0, 'chances': 2}, 
                        {'score': 0, 'chances': 2}, 
                        {'score': 0, 'chances': 2},
@@ -79,7 +78,6 @@ class Player    {
                        {'score': 0, 'chances': 2},
                        {'score': 0, 'chances': 2},
                        {'score': 0, 'chances': 2} ]
-
         this.gameScore = 0;
         this.totalScore = 0;
     }
